@@ -33,7 +33,7 @@ function Nav() {
           <Link to="/login" className={styles.links} onClick={closeNav}>Kontakt</Link>
             
         </ul>
-        <button id={styles.openNav} onClick={opencloseNav}><img src="./src/assets/menu-icon.svg" alt="menu icon"  width={16} height={16} color='green' /></button>
+        <button id={styles.openNav} onClick={opencloseNav}><img src="./assets/menu-icon.svg" alt="menu icon"  width={16} height={16} color='green' /></button>
     </nav>
     
    

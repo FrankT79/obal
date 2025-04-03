@@ -74,7 +74,7 @@
         box-sizing: border-box;
         padding-left: 1rem;
         background-color: #495E57;
-        background-image: url("./src/assets/krabicevozik.jpg");
+        background-image: url("./assets/krabicevozik.jpg");
         background-size: cover;
         background-blend-mode: multiply;
         width: 100%;

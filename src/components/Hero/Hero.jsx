@@ -11,7 +11,7 @@ function Hero() {
             <Link to="/Reservation" className={styles.resbtn} >Vypýtajte si ponuku</Link>
         </div>
         <div className={styles.imagepart}>
-            <img src="./src/assets/krabicevozik.jpg" alt="krabicevozik" />
+            <img src="./assets/krabicevozik.jpg" alt="krabicevozik" />
         </div>
     </div>
   )

@@ -37,10 +37,10 @@ function Footer() {
       </div>
       <div className={styles.slinks}>
         <h3>Sociálne siete</h3>
-       <a href="https://meta.com"> <img src="./src/assets/facebookIcon.png" alt="facebook icon" /></a>
-       <a href="https://instagram.com"><img src="./src/assets/instaIcon.png" alt="instagram icon" /></a>
-       <a href="https://pinterest.com"><img src="./src/assets/pinterestIcon.png" alt="pinterest icon" /></a>
-       <a href="https://youtube.com"><img src="./src/assets/youtubeicon.png" alt="youtube icon" /></a>
+       <a href="https://meta.com"> <img src="./assets/facebookIcon.png" alt="facebook icon" /></a>
+       <a href="https://instagram.com"><img src="./assets/instaIcon.png" alt="instagram icon" /></a>
+       <a href="https://pinterest.com"><img src="./assets/pinterestIcon.png" alt="pinterest icon" /></a>
+       <a href="https://youtube.com"><img src="./assets/youtubeicon.png" alt="youtube icon" /></a>
         
         
         

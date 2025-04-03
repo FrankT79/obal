@@ -18,7 +18,7 @@ Náš kolektív je Vám plne k dispozícii v oblasti balenia a ochrany Vašich v
         </div>
     </div>
     <div className={styles.aboutimage}>
-        <img src="./src/assets/factoryai.png" />
+        <img src="./assets/factoryai.png" />
     </div>
     </div>
   )

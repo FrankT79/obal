@@ -5,7 +5,7 @@ import styles from './Header.module.css'
 function Header() {
   return (
     <header>
-<img src="../src/assets/logoKartobal.svg" alt="logo kartobal" className={styles.headerlogo}/>
+<img src="./assets/logoKartobal.svg" alt="logo kartobal" className={styles.headerlogo}/>
 <Nav></Nav>
 
 </header>

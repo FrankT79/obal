@@ -11,7 +11,7 @@ function Card() {
     </div>
     <div className={styles.container}>
     <div className={styles.card}>
-        <img src="./src/assets/lepenky1.jpg" alt="greek salad" />
+        <img src="./assets/lepenky1.jpg" alt="greek salad" />
         <div className={styles.titleContainer}>
             <p className={styles.title}>Hladké a vlnité lepenky</p>
        </div>
@@ -19,7 +19,7 @@ function Card() {
         - výroba tvarovaných prírezov z hladkých a vlnitých lepeniek podľa predlohy zákazníka</p>
     </div>
     <div className={styles.card}>
-        <img src="./src/assets/antikor1.jpg" alt="bruchetta" />
+        <img src="./assets/antikor1.jpg" alt="bruchetta" />
         <div className={styles.titleContainer}>
             <p className={styles.title}>Antikorózne materiály</p>
             
@@ -27,7 +27,7 @@ function Card() {
         <p className={styles.description}>Ponúkame vysoko účinné materiály nemeckej firmy Branopac. Podľa požiadaviek zákazníka ponúkame VCI-vyparovacie inhibítory korózie na všetky druhy kovových výrobkov ( železo, zliatina, oceľ, meď, bronz, striebro ).</p>
     </div>
     <div className={styles.card}>
-        <img src="./src/assets/pena.jpg" alt="lemon dessert" />
+        <img src="./assets/pena.jpg" alt="lemon dessert" />
         <div className={styles.titleContainer}>
             <p className={styles.title}>Peny a profily</p>
             
