@@ -1,0 +1,89 @@
+.container{
+    
+    background-color: #495E57;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    margin-bottom: 5rem;
+    
+}
+
+.lemon{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 0;
+    color: #f4cf15;
+}
+.chicago{
+    color: white;
+    font-family: "Markazi Text", serif;
+    font-size: 2rem;
+}
+
+.textpart{
+    
+    max-width: 50ch;
+    
+}
+
+.textpart p{
+    margin-bottom: 2rem;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white
+}
+
+.resbtn{
+    text-decoration: none;
+    border: #f4cf15;
+    background-color: #f4cf15;
+    padding: 1rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    display: inline-block;
+    color: #495E57;
+    font-weight: bold;
+    font-family: "Markazi Text", serif;
+    font-size: 2rem;
+    box-shadow: 2px 2px 2px rgb(37, 28, 28);
+}
+
+.imagepart{
+    display: grid;
+    position: relative;
+    width: 100%;
+    justify-content: right;
+}
+.imagepart img{
+    position: absolute;;
+    max-width: 700px;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    justify-self: center;
+    border-radius: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .imagepart{
+    display: none;
+    }
+    .container{
+        box-sizing: border-box;
+        padding-left: 1rem;
+        background-color: #495E57;
+        background-image: url("./src/assets/krabicevozik.jpg");
+        background-size: cover;
+        background-blend-mode: multiply;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        margin-bottom: 5rem;
+        color: white;
+        
+    }
+     
+ }

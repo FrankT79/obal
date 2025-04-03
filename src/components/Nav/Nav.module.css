@@ -1,0 +1,105 @@
+/*<li><a href="#Reservations">Reservations</a></li>*/
+nav ul{
+    padding-right: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: flex-end;
+    /*margin-right: 1rem;*/
+}
+
+nav .links{
+    text-decoration: none;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+    align-items: center;
+      
+   
+}
+
+nav .links:hover{
+    background-color:rgb(107, 31, 107);
+    color: white;
+}
+
+nav img{
+    display: block;
+    align-self: top;
+}
+
+#closeNav{
+    display: none;
+    background: none;
+    border: none;
+    padding: 1em;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+#openNav{
+    display: none;
+    background: none;
+    border: none;
+    padding: 1em;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul{
+
+        z-index: 10;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #acbdb7;
+        color: rgb(107, 31, 107);
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        transition: 1s;
+        margin: 0;
+        padding: 0;
+        transform: translateY(-100%);
+    }
+    nav .links{
+        color:  rgb(107, 31, 107);
+        display: block;
+        height: auto;
+        gap: 2rem;
+    }
+    nav .links:hover{
+        background-color: #495E57;
+        color:#f4cf15;
+    }
+    .responsiveBar{      
+        transform: none;
+        
+    }
+
+    #openNav{
+        display: block;
+        margin-right: 1rem;
+        
+        
+    }
+
+    #closeNav{
+        display: block;
+        color: white;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        
+    }
+  }

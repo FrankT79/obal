@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    max-width: 1100px;
+    justify-self: center;
+    gap: 2rem;
+   
+}
+
+.bodycontainer{
+    box-sizing: border-box;
+    display: grid;
+    max-width: 1100px;
+    justify-self: center;
+}
+.titlemain{
+   padding-bottom: 2rem;
+    
+    max-width: 1100px;
+}
+
+.maintitle{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    box-shadow: 2px 2px 5px #495e57;
+    max-width: 30ch;
+    min-width: 30ch;
+    border-radius: 16px;
+    justify-content: space-between;
+    
+
+}
+.card img{
+    width: 100%;
+    border-radius: 16px;
+}
+.title{
+    font-size: 18px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    margin-right: auto;
+}
+.price{
+    display: inline-block;
+    font-weight: bold;
+    color: orange;
+    margin-right: 0.5rem;
+}
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    color: #495e57;
+    line-height: 1.5;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+   .container{
+    box-sizing: border-box;
+    width: 100svw;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+
+    
+   }
+   .maintitle{
+    display: inline-block;
+    margin: 0;
+    padding-left: 1rem;
+}
+    
+}
