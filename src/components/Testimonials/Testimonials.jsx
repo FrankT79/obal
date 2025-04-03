@@ -22,7 +22,7 @@ function Testimonials() {
             </div>
             <div className={styles.testcard}>
                 
-                <img src="./assets/LogoRajo.png" alt="personicon" width={50}/>
+                <img src="./assets/logoRajo.png" alt="personicon" width={50}/>
                 
               
             </div>
