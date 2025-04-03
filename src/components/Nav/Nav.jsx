@@ -24,7 +24,7 @@ function Nav() {
     
     <nav >
         <ul  className={responsive}>
-          <button id={styles.closeNav} onClick={opencloseNav}><img src="./src/assets/x-icon2.svg" alt="X icon"  width={16} height={16} /></button>
+          <button id={styles.closeNav} onClick={opencloseNav}><img src="./assets/x-icon2.svg" alt="X icon"  width={16} height={16} /></button>
           <Link to="/" className={styles.links} onClick={closeNav}>Domov</Link>
           <Link to="/about" className={styles.links} onClick={closeNav}>O nás</Link>
           <Link to="/menu" className={styles.links} onClick={closeNav}>Hladké a vlnité lepenky</Link>
